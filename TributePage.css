@@ -1,0 +1,41 @@
+body {
+    /*background-image: url(Roosvelt_background.jpg);*/
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.resizing-pic {
+    max-width: 100%;
+    max-height: auto;
+}
+
+footer {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.bottom-boxes {
+    flex-grow: 1;
+    flex-shrink: 1;
+    text-align: center;
+    border: 2px;
+    max-height: 100%;
+    border-style: solid;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+a {
+    color: black;
+}
