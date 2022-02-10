@@ -1,0 +1,28 @@
+body {
+    margin-top: 5vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-bottom: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+}
+
+.image {
+    max-width: 30vw;
+    max-height: 25vw;
+}
+
+.text-image {
+    display: flex;
+    
+    margin-bottom: 2vw;
+}
+
+.first_paragraph {
+    margin-right: 4vw;
+    text-align: left;
+}
