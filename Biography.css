@@ -18,11 +18,17 @@ h1 {
 
 .text-image {
     display: flex;
-    
     margin-bottom: 2vw;
 }
 
 .first_paragraph {
     margin-right: 4vw;
     text-align: left;
+}
+
+@media (max-width: 650px) {
+    .text-image {
+        display: flex;
+        flex-direction: column;
+    }
 }
