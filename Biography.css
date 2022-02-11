@@ -11,14 +11,15 @@ h1 {
     text-align: center;
 }
 
-.image {
-    max-width: 30vw;
-    max-height: 25vw;
-}
-
 .text-image {
     display: flex;
     margin-bottom: 2vw;
+}
+
+
+.image {
+    max-width: 35vw;
+    max-height: auto;
 }
 
 .first_paragraph {
